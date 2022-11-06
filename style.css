@@ -1,0 +1,60 @@
+.main {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition-property: width;
+    transition-duration: 5s;
+    transition-delay: 2s;
+}
+.main:hover {
+    width: 300px;
+}
+div.b {
+    width: 150px;
+    height: 80px;
+    background-color: yellow;
+    -ms-transform: skewY(20deg);  
+    transform: skewY(20deg);
+}
+div.c {
+    width: 150px;
+    height: 80px;
+    background-color: yellow;
+    -ms-transform: scaleY(1.5); 
+    transform: scaleY(1.5);
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+    border: 2px solid black;
+}
+.item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid black;
+    text-align: center;
+    font-size: 30px;
+}
+.des p {
+    background-color: yellow;
+}
+.adj > p {
+    background-color: yellow;
+}
+.as + p {
+    background-color: yellow;
+}
+b ~ p{
+    background-color: yellow;
+}
+a:visited{
+    color: purple;
+}
+a:hover{
+    color: yellow;
+}
+a:active{
+    color: brown;
+}
